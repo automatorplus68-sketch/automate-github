@@ -1,0 +1,66 @@
+🔧 Pull Request Template: Automation - GitHub Repository Creation
+Title: Automate GitHub Repository Creation - [Project Name or Task ID]
+
+📋 Summary
+<!-- Briefly describe what this PR does. For example: -->
+
+This PR introduces an automation script/workflow to create new GitHub repositories programmatically using GitHub API / GitHub Actions / CLI tools. It helps streamline the repository provisioning process for new projects.
+
+✅ Changes Introduced
+
+ Added automation script (create-repo.py / GitHub Action YAML)
+
+ Integration with GitHub API / CLI for repo creation
+
+ Support for setting default labels, README, license, branch protection rules
+
+ Configurable repo visibility (private/public/internal)
+
+ Optional team access and permissions setup
+
+ Error handling and logging
+
+⚙️ Usage
+<!-- How to run/test the automation: -->
+
+Set up required credentials/secrets (e.g., GH_TOKEN)
+
+Run the automation:
+
+python create-repo.py --name=my-new-repo --private
+
+
+or trigger the GitHub Action with inputs:
+
+with:
+  repo_name: my-new-repo
+  visibility: private
+
+🧪 Testing
+
+ Tested locally / in dev environment
+
+ Created dummy/test repository for validation
+
+ Verified repo settings, permissions, and contents
+
+📌 Related Issues / Tasks
+
+Closes #[issue_number]
+Related to #[task/story ID] (if applicable)
+
+🚨 Notes for Reviewers
+
+Make sure secrets are added to the environment before merging
+
+Review repo naming conventions and visibility rules
+
+Confirm access roles are assigned correctly
+
+📅 Next Steps (Post-Merge)
+
+ Monitor initial runs
+
+ Document usage for team
+
+ Integrate into onboarding process (if applicable)
