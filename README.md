@@ -35,7 +35,7 @@ This app uses **Python + Tkinter** to provide a lightweight desktop interface fo
 ### Requirements
 
 - Windows 10 or 11
-- Python 3.8 or newer
+- Python 3.12 or newer
 - `pip` installed
 - new version of google chrome
 ### Clone & create app by yourself
