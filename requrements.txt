@@ -1,0 +1,8 @@
+txt
+copy code
+undetected_chromedriver
+selenium
+requests
+pillow
+tk
+pywinauto
