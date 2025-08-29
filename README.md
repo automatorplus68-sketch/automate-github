@@ -1,6 +1,6 @@
 # automate-github
 
-# 🤖 AI Automation Desktop App (Tkinter GUI)
+# 🤖 Github Automation Desktop App (Tkinter GUI)
 
 **A Python desktop application for Windows that automates AI tasks through a simple and responsive Tkinter-based GUI.**
 
